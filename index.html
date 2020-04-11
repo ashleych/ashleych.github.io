@@ -54,20 +54,21 @@
 
 <script>
 	
-var units = "Widgets";
+var units = "Nodes";
 
 // set the dimensions and margins of the graph
 var margin = {       top: 1,
         right: 1,
-        bottom: 6,
-        left: 100},
-    width = 1200 - margin.left - margin.right,
+        bottom: 10,
+        left: 50},
+    width = 1450 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 // format variables
 var formatNumber = d3.format(",.0f"),    // zero decimal places
-    format = function(d) { return formatNumber(d) + " " + units; },
-    color = d3.scaleOrdinal(d3.schemeCategory20);
+    // format = function(d) { return formatNumber(d) + " " + units; }, //replace with units if needed
+    format = function(d) { return formatNumber(d) +" " + "impacts"; }, //replace with units if needed
+    color = d3.scaleOrdinal(d3.schemeCategory20)
 
 // append the svg object to the body of the page
 var svg = d3.select("#chart").append("svg")
@@ -90,6 +91,7 @@ var path = sankey.link();
 d3.csv("sankey.csv", function(error, data) {
   
   categoryMap = {"category" : []};
+  console.log(categoryMap);
   data.forEach(function (d) {
   categoryMap.category.push({"category": d.category});
  });
@@ -283,7 +285,7 @@ d3.select("#selectButton").on("change", function(d) {
         // recover the option that has been chosen
         
         var selectedOption = d3.select(this).property("value")
-        
+        console.log(selectedOption);
         // run the updateChart function with this selected option
         update(selectedOption)
   })
@@ -298,10 +300,18 @@ var dataFilter = data.filter(function(d){
     return d;
   }
  })
+ console.log("printing data 1 : " + data.filter);
  
-updateGraph(dataFilter)  
+updateGraph(dataFilter) ;
 }
-updateGraph(data); 
+console.log("printing data 2: " + data.filter);
+var initialData = data.filter(function(d){
+  if( d.category =="Collateral depreciation")  
+  {
+    return d;
+  }
+ })
+updateGraph(initialData); 
 });
 
 </script>

@@ -1,0 +1,106 @@
+source,target,value,category,,,
+Collateral depreciation,LGD,1,Collateral depreciation,Collateral depreciationLGD,LGDCollateral depreciation,#N/A
+ECL,Provisions Coverage,1,Collateral depreciation,ECLProvisions Coverage,Provisions CoverageECL,#N/A
+ECL,Tier I Capital,1,Collateral depreciation,ECLTier I Capital,Tier I CapitalECL,#N/A
+ECL,Tier II Capital,1,Collateral depreciation,ECLTier II Capital,Tier II CapitalECL,#N/A
+ECL,Provisions,1,Collateral depreciation,ECLProvisions,ProvisionsECL,#N/A
+Equity,Tier I Capital,1,Collateral depreciation,EquityTier I Capital,Tier I CapitalEquity,#N/A
+LGD,ECL,1,Collateral depreciation,LGDECL,ECLLGD,#N/A
+LGD,RWA,1,Collateral depreciation,LGDRWA,RWALGD,#N/A
+PAT,Equity,1,Collateral depreciation,PATEquity,EquityPAT,#N/A
+Provisions,PAT,1,Collateral depreciation,ProvisionsPAT,PATProvisions,#N/A
+RWA,CAR,1,Collateral depreciation,RWACAR,CARRWA,#N/A
+Tier I Capital,CAR,1,Collateral depreciation,Tier I CapitalCAR,CARTier I Capital,#N/A
+Tier II Capital,CAR,1,Collateral depreciation,Tier II CapitalCAR,CARTier II Capital,#N/A
+EAD,ECL,1,Exposure Migration from S2 to S3,EADECL,ECLEAD,#N/A
+EAD,RWA,1,Exposure Migration from S2 to S3,EADRWA,RWAEAD,#N/A
+ECL,Tier I Capital,1,Exposure Migration from S2 to S3,ECLTier I Capital,Tier I CapitalECL,#N/A
+ECL,Tier II Capital,1,Exposure Migration from S2 to S3,ECLTier II Capital,Tier II CapitalECL,#N/A
+ECL,Provisions,1,Exposure Migration from S2 to S3,ECLProvisions,ProvisionsECL,#N/A
+Equity,Tier I Capital,1,Exposure Migration from S2 to S3,EquityTier I Capital,Tier I CapitalEquity,#N/A
+Exposure Migration from S2 to S3,Stage Movement,1,Exposure Migration from S2 to S3,Exposure Migration from S2 to S3Stage Movement,Stage MovementExposure Migration from S2 to S3,#N/A
+Exposure Migration from S2 to S3,EAD,1,Exposure Migration from S2 to S3,Exposure Migration from S2 to S3EAD,EADExposure Migration from S2 to S3,#N/A
+Net Inflows,LCR,1,Exposure Migration from S2 to S3,Net InflowsLCR,LCRNet Inflows,#N/A
+Net Inflows,NSFR,1,Exposure Migration from S2 to S3,Net InflowsNSFR,NSFRNet Inflows,#N/A
+Net Interest Income,PAT,1,Exposure Migration from S2 to S3,Net Interest IncomePAT,PATNet Interest Income,#N/A
+NPL,Net Inflows,1,Exposure Migration from S2 to S3,NPLNet Inflows,Net InflowsNPL,#N/A
+NPL,NPL Ratio,1,Exposure Migration from S2 to S3,NPLNPL Ratio,NPL RatioNPL,#N/A
+NPL,Provisions Coverage,1,Exposure Migration from S2 to S3,NPLProvisions Coverage,Provisions CoverageNPL,#N/A
+NPL,Net Interest Income,1,Exposure Migration from S2 to S3,NPLNet Interest Income,Net Interest IncomeNPL,#N/A
+NPL,Provisions,1,Exposure Migration from S2 to S3,NPLProvisions,ProvisionsNPL,#N/A
+PAT,Equity,1,Exposure Migration from S2 to S3,PATEquity,EquityPAT,#N/A
+Provisions,PAT,1,Exposure Migration from S2 to S3,ProvisionsPAT,PATProvisions,#N/A
+RWA,CAR,1,Exposure Migration from S2 to S3,RWACAR,CARRWA,#N/A
+Stage Movement,NPL,1,Exposure Migration from S2 to S3,Stage MovementNPL,NPLStage Movement,#N/A
+Tier I Capital,CAR,1,Exposure Migration from S2 to S3,Tier I CapitalCAR,CARTier I Capital,#N/A
+Tier I Capital,LCR,1,Exposure Migration from S2 to S3,Tier I CapitalLCR,LCRTier I Capital,#N/A
+Tier I Capital,NSFR,1,Exposure Migration from S2 to S3,Tier I CapitalNSFR,NSFRTier I Capital,#N/A
+Tier II Capital,CAR,1,Exposure Migration from S2 to S3,Tier II CapitalCAR,CARTier II Capital,#N/A
+Tier II Capital,LCR,1,Exposure Migration from S2 to S3,Tier II CapitalLCR,LCRTier II Capital,#N/A
+Exposure Migration from S2 to S3,PD,1,Exposure Migration from S2 to S3,Exposure Migration from S2 to S3PD,PDExposure Migration from S2 to S3,#N/A
+PD,RWA,1,Exposure Migration from S2 to S3,PDRWA,RWAPD,#N/A
+PD,ECL,1,Exposure Migration from S2 to S3,PDECL,ECLPD,#N/A
+Equity,Tier II Capital,1,Exposure Migration from S2 to S3,EquityTier II Capital,Tier II CapitalEquity,#N/A
+EAD,ECL,1,Migration based on Transition matrix,EADECL,ECLEAD,#N/A
+EAD,RWA,1,Migration based on Transition matrix,EADRWA,RWAEAD,#N/A
+ECL,Provisions Coverage,1,Migration based on Transition matrix,ECLProvisions Coverage,Provisions CoverageECL,#N/A
+ECL,Tier I Capital,1,Migration based on Transition matrix,ECLTier I Capital,Tier I CapitalECL,#N/A
+ECL,Tier II Capital,1,Migration based on Transition matrix,ECLTier II Capital,Tier II CapitalECL,#N/A
+ECL,Provisions,1,Migration based on Transition matrix,ECLProvisions,ProvisionsECL,#N/A
+PD,ECL,1,Migration based on Transition matrix,ECL SensitivityECL,ECLECL Sensitivity,#N/A
+Equity,Tier I Capital,1,Migration based on Transition matrix,EquityTier I Capital,Tier I CapitalEquity,#N/A
+Credit Migration,Rating Movement,1,Migration based on Transition matrix,Migration based on Transition matrixRating Movement,Rating MovementMigration based on Transition matrix,#N/A
+Stage Movement,EAD,1,Migration based on Transition matrix,Migration based on Transition matrixEAD,EADMigration based on Transition matrix,#N/A
+Rating Movement,PD,1,Migration based on Transition matrix,Migration based on Transition matrixPD,PDMigration based on Transition matrix,#N/A
+Net Inflows,LCR,1,Migration based on Transition matrix,Net InflowsLCR,LCRNet Inflows,#N/A
+Net Inflows,NSFR,1,Migration based on Transition matrix,Net InflowsNSFR,NSFRNet Inflows,#N/A
+Net Interest Income,PAT,1,Migration based on Transition matrix,Net Interest IncomePAT,PATNet Interest Income,#N/A
+NPL,Net Inflows,1,Migration based on Transition matrix,NPLNet Inflows,Net InflowsNPL,#N/A
+NPL,NPL Ratio,1,Migration based on Transition matrix,NPLNPL Ratio,NPL RatioNPL,#N/A
+NPL,Provisions Coverage,1,Migration based on Transition matrix,NPLProvisions Coverage,Provisions CoverageNPL,#N/A
+NPL,Net Interest Income,1,Migration based on Transition matrix,NPLNet Interest Income,Net Interest IncomeNPL,#N/A
+NPL,Provisions,1,Migration based on Transition matrix,NPLProvisions,ProvisionsNPL,#N/A
+PAT,Equity,1,Migration based on Transition matrix,PATEquity,EquityPAT,#N/A
+Provisions,PAT,1,Migration based on Transition matrix,ProvisionsPAT,PATProvisions,#N/A
+Rating Movement,Stage Movement,1,Migration based on Transition matrix,Rating MovementStage Movement,Stage MovementRating Movement,#N/A
+RWA,CAR,1,Migration based on Transition matrix,RWACAR,CARRWA,#N/A
+Stage Movement,NPL,1,Migration based on Transition matrix,Stage MovementNPL,NPLStage Movement,#N/A
+PD,RWA,1,Migration based on Transition matrix,Stage MovementECL Sensitivity,ECL SensitivityStage Movement,#N/A
+Tier I Capital,CAR,1,Migration based on Transition matrix,Tier I CapitalCAR,CARTier I Capital,#N/A
+Tier I Capital,LCR,1,Migration based on Transition matrix,Tier I CapitalLCR,LCRTier I Capital,#N/A
+Tier I Capital,NSFR,1,Migration based on Transition matrix,Tier I CapitalNSFR,NSFRTier I Capital,#N/A
+Tier II Capital,CAR,1,Migration based on Transition matrix,Tier II CapitalCAR,CARTier II Capital,#N/A
+Tier II Capital,LCR,1,Migration based on Transition matrix,Tier II CapitalLCR,LCRTier II Capital,#N/A
+Tier II Capital,NSFR,1,Migration based on Transition matrix,Tier II CapitalNSFR,NSFRTier II Capital,#N/A
+NPL,Net Interest Income,1,Migration based on Transition matrix,NPLLiquidity Stress,Liquidity StressNPL,#N/A
+Stage Movement,ECL,1,Migration based on Transition matrix,ECL SensitivityECL,ECLECL Sensitivity,#N/A
+Equity,Tier II Capital,1,Migration based on Transition matrix,ECL SensitivityECL,ECLECL Sensitivity,#N/A
+ECL,Provisions Coverage,1,Top Borrower Default,ECLProvisions Coverage,Provisions CoverageECL,#N/A
+ECL,Tier I Capital,1,Top Borrower Default,ECLTier I Capital,Tier I CapitalECL,#N/A
+ECL,Tier II Capital,1,Top Borrower Default,ECLTier II Capital,Tier II CapitalECL,#N/A
+ECL,Provisions,1,Top Borrower Default,ECLProvisions,ProvisionsECL,#N/A
+Equity,Tier I Capital,1,Top Borrower Default,EquityTier I Capital,Tier I CapitalEquity,#N/A
+Equity,Tier II Capital,1,Top Borrower Default,EquityTier II Capital,Tier II CapitalEquity,#N/A
+LGD,ECL,1,Top Borrower Default,LGDECL,ECLLGD,#N/A
+Net Interest Income,PAT,1,Top Borrower Default,Net Interest IncomePAT,PATNet Interest Income,#N/A
+Net Inflows,LCR,1,Top Borrower Default,Net InflowsLCR,LCRNet Inflows,#N/A
+Net Inflows,NSFR,1,Top Borrower Default,Net InflowsNSFR,NSFRNet Inflows,#N/A
+NPL,Net Inflows,1,Top Borrower Default,NPLNet Inflows,Net InflowsNPL,#N/A
+NPL,NPL Ratio,1,Top Borrower Default,NPLNPL Ratio,NPL RatioNPL,#N/A
+NPL,Provisions Coverage,1,Top Borrower Default,NPLProvisions Coverage,Provisions CoverageNPL,#N/A
+NPL,Net Interest Income,1,Top Borrower Default,NPLNet Interest Income,Net Interest IncomeNPL,#N/A
+NPL,Provisions,1,Top Borrower Default,NPLProvisions,ProvisionsNPL,#N/A
+PAT,Equity,1,Top Borrower Default,PATEquity,EquityPAT,#N/A
+PD,ECL,1,Top Borrower Default,PDECL,ECLPD,#N/A
+PD,RWA,1,Top Borrower Default,PDRWA,RWAPD,#N/A
+PD,NPL,1,Top Borrower Default,PDNPL,NPLPD,#N/A
+Provisions,PAT,1,Top Borrower Default,ProvisionsPAT,PATProvisions,#N/A
+RWA,CAR,1,Top Borrower Default,RWACAR,CARRWA,#N/A
+Tier I Capital,CAR,1,Top Borrower Default,Tier I CapitalCAR,CARTier I Capital,#N/A
+Tier I Capital,LCR,1,Top Borrower Default,Tier I CapitalLCR,LCRTier I Capital,#N/A
+Tier I Capital,NSFR,1,Top Borrower Default,Tier I CapitalNSFR,NSFRTier I Capital,#N/A
+Tier II Capital,CAR,1,Top Borrower Default,Tier II CapitalCAR,CARTier II Capital,#N/A
+Tier II Capital,LCR,1,Top Borrower Default,Tier II CapitalLCR,LCRTier II Capital,#N/A
+Tier II Capital,NSFR,1,Top Borrower Default,Tier II CapitalNSFR,NSFRTier II Capital,#N/A
+Top Borrower Default,PD,1,Top Borrower Default,Top Borrower DefaultPD,PDTop Borrower Default,#N/A
+Top Borrower Default,LGD,1,Top Borrower Default,Top Borrower DefaultLGD,LGDTop Borrower Default,#N/A
